@@ -9,6 +9,9 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        .css-menu {}
+    </style>
 </head>
 
 <body>
@@ -16,24 +19,24 @@
         <div class="menu-container">
             <h1>Notes</h1>
             <ul class="menu">
-                <li><a href="#">HTML</a>
-                    <ul class="html-menu">
-                        <li><a href="#html-introduction">Introduction HTML</a></li>
-                        <li><a href="#html-tags">HTML Tags</a></li>
+                <li><a href="index.html" class="title-menu">HTML</a>
+                    <ul class="sub-menu">
+                        <li><a href="index.html#html-introduction">Introduction HTML</a></li>
+                        <li><a href="index.html#html-tags">HTML Tags</a></li>
                         <li><a href="#">HTML Attributes</a></li>
                     </ul>
                 </li>
-                <li><a href="#">CSS</a>
-                    <ul class="css-menu">
-                        <li><a href="#css-introduction">Introduction CSS</a></li>
-                        <li><a href="#css-properties">CSS Properties</a></li>
+                <li><a href="css.html" class="title-menu">CSS</a>
+                    <ul class="sub-menu">
+                        <li><a href="css.html#css-introduction">Introduction CSS</a></li>
+                        <li><a href="css.html#css-properties">CSS Properties</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Javascript</a></li>
-                <li><a href="#">React</a></li>
+                <li><a href="js.html">Javascript</a></li>
+                <li><a href="react.html">React</a></li>
             </ul>
         </div>
-        <div class="css-contents-container">
+        <div class="contents-container">
             <h1 id="css-introduction">CSS Introduction</h1>
             <ul>
                 <li>CSS stands for Cascading Style Sheets.</li>
@@ -41,7 +44,7 @@
                 <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
                 <li>External stylesheets are stored in CSS files.</li>
             </ul>
-            <h1 class="css-properties">CSS Properties</h1>
+            <h1 id="css-properties">CSS Properties</h1>
             <p><b>align-content :</b> Specifies the alignment of flexible container's items within the flex container.
             </p>
             <p><b>align-items :</b> Specifies the default alignment for items within the flex container.</p>

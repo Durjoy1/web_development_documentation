@@ -50,7 +50,28 @@ h1 {
 .menu li {
   padding: 0.2rem 0rem;
   list-style-type: none;
-  display: hidden;
+}
+.sub-menu {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  display: none;
+}
+.sub-menu li {
+  padding: 0.5rem;
+}
+.sub-menu li:hover,
+.sub-menu li:active,
+.sub-menu li:visited {
+  padding-left: 1rem;
+  background: var(--primary-color-lighter);
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-menu:hover + .sub-menu,
+.sub-menu:hover {
+  display: block;
+  opacity: 1;
 }
 a {
   text-decoration: none;
@@ -69,13 +90,13 @@ a {
   color: var(--text-color);
   border-right: 0.3rem solid var(--secondary-color);
 }
-.html-menu li {
+.menu li {
   margin-left: 1rem;
   padding: 0.2rem 0rem;
   list-style-type: none;
 }
 
-.html-contents-container {
+.contents-container {
   color: var(--text-color);
   background: var(--primary-color-lighter);
   position: relative;
@@ -84,10 +105,10 @@ a {
   justify-content: flex-end;
   padding: 5rem;
 }
-.html-contents-container ul {
+.contents-container ul {
   padding-left: 4rem;
 }
-.html-contents-container ul li {
+.contents-container ul li {
   padding: 1rem 0rem;
   list-style-type: disc;
 }
