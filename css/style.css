@@ -69,13 +69,13 @@ a {
   color: var(--text-color);
   border-right: 0.3rem solid var(--secondary-color);
 }
-.HTML-menu li {
+.html-menu li {
   margin-left: 1rem;
   padding: 0.2rem 0rem;
   list-style-type: none;
 }
 
-.HTML-contents-container {
+.html-contents-container {
   color: var(--text-color);
   background: var(--primary-color-lighter);
   position: relative;
@@ -84,10 +84,10 @@ a {
   justify-content: flex-end;
   padding: 5rem;
 }
-.HTML-contents-container ul {
+.html-contents-container ul {
   padding-left: 4rem;
 }
-.HTML-contents-container ul li {
+.html-contents-container ul li {
   padding: 1rem 0rem;
   list-style-type: disc;
 }
