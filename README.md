@@ -1,6 +1,6 @@
 
 # Fullstack Documentation
-It's a simple webpage containing documentation of Front-End technologies.It is useful for new developer for quick revision purpose. 
+It's a simple webpage containing documentation of Front-End technologies.It is useful for new developer for quick revision purpose. It is made with HTML and CSS.
 
 
 ## Demo
